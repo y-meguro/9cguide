@@ -27,7 +27,7 @@ int main(void)
 }
 
 int calc_olympic(year) {
-    int remainder, num;
+    int remainder;
 
     remainder = year % 4;
     if (remainder == 0) {
